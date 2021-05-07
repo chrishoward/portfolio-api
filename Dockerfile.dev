@@ -1,0 +1,6 @@
+FROM node:14-alpine
+
+# Use /app as the CWD
+WORKDIR /app
+
+CMD ["npm","start"]
