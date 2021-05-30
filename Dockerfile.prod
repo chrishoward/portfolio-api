@@ -30,7 +30,7 @@ COPY package*.json ./
 # Install only packages required for production
 RUN npm install --only-production
 
-COPY read-data.sql ./dist
+COPY read-data.sql ./
 
 # Copy build files from stage 1 'builder' to stage 2 'final'
 COPY --from=builder /app/dist ./dist
