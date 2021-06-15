@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/christopher-howard/portfolio-api.git"
+    "url": "git+https://github.com/chrishoward/portfolio-api.git"
   },
   "author": "Chris Howard",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/christopher-howard/portfolio-api/issues"
+    "url": "https://github.com/chrishoward/portfolio-api/issues"
   },
-  "homepage": "https://github.com/christopher-howard/portfolio-api#readme",
+  "homepage": "https://github.com/chrishoward/portfolio-api#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1",
